@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="PetMatch helps you discover which pet fits your lifestyle."
+  >
+
+  <title>PetMatch | Find Your Perfect Pet</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+
+  <nav class="navbar">
+
+    <a href="#" class="logo">
+      🐾 <span>PetMatch</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#pets">Pets</a>
+      <a href="#how">How It Works</a>
+      <a href="#match">Your Match</a>
+    </div>
+
+    <button class="button button-small start-quiz">
+      Find My Pet
+    </button>
+
+  </nav>
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <main>
+
+    <section class="hero container">
+
+      <div class="hero-content">
+
+        <div class="badge">
+          🐾 Find your new best friend
+        </div>
+
+        <h1>
+          Find the pet that
+          <span>fits your life.</span>
+        </h1>
+
+        <p>
+          Take our quick personality and lifestyle quiz
+          to discover which pet could be the perfect
+          companion for you.
+        </p>
+
+        <div class="hero-actions">
+
+          <button class="button start-quiz">
+            Find My Pet →
+          </button>
+
+          <a href="#pets" class="button button-secondary">
+            Explore Pets
+          </a>
+
+        </div>
+
+        <div class="hero-benefits">
+
+          <span>✓ 60-second quiz</span>
+
+          <span>✓ Personalized results</span>
+
+          <span>✓ Completely free</span>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-art">
+
+        <div class="hero-circle">
+          🐶
+        </div>
+
+        <div class="floating-pet floating-one">
+          🐱
+        </div>
+
+        <div class="floating-pet floating-two">
+          🐢
+        </div>
+
+        <div class="floating-pet floating-three">
+          🐰
+        </div>
+
+        <div class="floating-pet floating-four">
+          🦜
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PETS
+    ========================== -->
+
+    <section id="pets" class="section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            MEET THE PETS
+          </span>
+
+          <h2>
+            Who could be your perfect match?
+          </h2>
+
+          <p>
+            Every pet has different needs,
+            personalities and lifestyles.
+          </p>
+
+        </div>
+
+
+        <!-- Created automatically by JS -->
+
+        <div
+          id="petGrid"
+          class="pet-grid"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         HOW IT WORKS
+    ========================== -->
+
+    <section
+      id="how"
+      class="section section-soft"
+    >
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            HOW IT WORKS
+          </span>
+
+          <h2>
+            Find your match in three steps
+          </h2>
+
+        </div>
+
+
+        <div class="steps-grid">
+
+          <article class="step-card">
+
+            <div class="step-number">
+              1
+            </div>
+
+            <div class="step-icon">
+              💬
+            </div>
+
+            <h3>
+              Tell us about yourself
+            </h3>
+
+            <p>
+              Answer a few questions about
+              your lifestyle, home and personality.
+            </p>
+
+          </article>
+
+
+          <article class="step-card">
+
+            <div class="step-number">
+              2
+            </div>
+
+            <div class="step-icon">
+              🧠
+            </div>
+
+            <h3>
+              We calculate your matches
+            </h3>
+
+            <p>
+              PetMatch compares your answers
+              with the needs of different pets.
+            </p>
+
+          </article>
+
+
+          <article class="step-card">
+
+            <div class="step-number">
+              3
+            </div>
+
+            <div class="step-icon">
+              💛
+            </div>
+
+            <h3>
+              Meet your pet
+            </h3>
+
+            <p>
+              See which pet fits your
+              lifestyle and why.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         SAMPLE MATCH
+    ========================== -->
+
+    <section
+      id="match"
+      class="section"
+    >
+
+      <div class="container match-layout">
+
+        <div class="match-copy">
+
+          <span class="eyebrow">
+            YOUR MATCH
+          </span>
+
+          <h2>
+            Your perfect pet might surprise you.
+          </h2>
+
+          <p>
+            We consider your activity level,
+            schedule, living space, personality
+            and pet-care preferences.
+          </p>
+
+          <button class="button start-quiz">
+            Discover My Match →
+          </button>
+
+        </div>
+
+
+        <article class="example-result">
+
+          <span class="match-score">
+            92% MATCH
+          </span>
+
+          <div class="example-pet">
+            🐢
+          </div>
+
+          <h3>
+            Turtle
+          </h3>
+
+          <p class="result-title">
+            Your peaceful companion
+          </p>
+
+          <p>
+            You like calm animals and prefer
+            a pet that doesn't require constant
+            attention.
+          </p>
+
+
+          <div class="result-stats">
+
+            <div>
+              <span>Lifestyle</span>
+              <strong>★★★★★</strong>
+            </div>
+
+            <div>
+              <span>Space Needed</span>
+              <strong>★★☆☆☆</strong>
+            </div>
+
+            <div>
+              <span>Daily Attention</span>
+              <strong>★★☆☆☆</strong>
+            </div>
+
+            <div>
+              <span>Beginner Friendly</span>
+              <strong>★★★★☆</strong>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CTA
+    ========================== -->
+
+    <section class="cta">
+
+      <div class="container">
+
+        <div class="cta-pets">
+          🐶 🐱 🐢 🐹 🐰 🦜
+        </div>
+
+        <h2>
+          Ready to meet your perfect pet?
+        </h2>
+
+        <p>
+          Your new best friend could be
+          just a few questions away.
+        </p>
+
+        <button class="button button-light start-quiz">
+          Take the Quiz →
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div class="container footer-content">
+
+      <div class="logo">
+        🐾 <span>PetMatch</span>
+      </div>
+
+      <p>
+        Made with 💛 for animal lovers.
+      </p>
+
+      <p>
+        © 2026 PetMatch
+      </p>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- =========================
+       QUIZ
+  ========================== -->
+
+  <div
+    id="quizModal"
+    class="modal"
+    aria-hidden="true"
+  >
+
+    <div class="quiz">
+
+      <button
+        id="closeQuiz"
+        class="close"
+        aria-label="Close quiz"
+      >
+        ×
+      </button>
+
+
+      <div id="quizQuestions">
+
+        <div class="quiz-progress-header">
+
+          <span id="questionCounter">
+            Question 1
+          </span>
+
+          <span id="progressPercent">
+            0%
+          </span>
+
+        </div>
+
+        <div class="progress-track">
+
+          <div
+            id="progressBar"
+            class="progress-bar"
+          ></div>
+
+        </div>
+
+
+        <div class="quiz-icon">
+          🐾
+        </div>
+
+        <h2 id="questionText"></h2>
+
+        <div
+          id="answers"
+          class="answers"
+        ></div>
+
+      </div>
+
+
+
+      <!-- RESULT -->
+
+      <div
+        id="quizResult"
+        class="quiz-result hidden"
+      >
+
+        <span class="eyebrow">
+          YOUR PERFECT MATCH
+        </span>
+
+        <div
+          id="resultEmoji"
+          class="result-emoji"
+        ></div>
+
+        <h2 id="resultName"></h2>
+
+        <div
+          id="resultPercentage"
+          class="result-percentage"
+        ></div>
+
+        <p id="resultDescription"></p>
+
+        <div class="quiz-result-buttons">
+
+          <button
+            id="restartQuiz"
+            class="button"
+          >
+            Try Again
+          </button>
+
+          <button
+            id="finishQuiz"
+            class="button button-secondary"
+          >
+            Close
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
